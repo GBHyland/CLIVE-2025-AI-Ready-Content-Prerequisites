@@ -1,2 +1,29 @@
-# CLIVE-2025-AI-Ready-Content-Prerequisites
-A Pre-requisite checklist for attendees of the Alfresco AI Ready Content session at CommunityLive 2025.
+# AI Ready Content leveraging Alfresco - CommunityLive25
+Please ensure that you have the following items downloaded and installed and ready to operate **before** your session starts on August 25th.
+
+
+### Class Pre-requisits
+1. Java 21 & Maven 3.9+ (for local builds)
+   - Install Java with Brew:
+   ```
+    brew install java   #installs java
+    java -version       #check java version (confirm install)
+   ```
+   - Install Maven with Brew: [Brew Maven Install](https://formulae.brew.sh/formula/maven)
+2. Docker Desktop: [Docker Desktop](https://www.docker.com/get-started/)
+   - Ensure you have the correct Docker Model Runner settings in Docker Desktop application; see below:
+   - ![alt text](images/docker-desktop-settings.jpeg "Proper Docker Settings for Model Runner")
+3. An Ollama daemon exposing llava LLM on ```http://localhost:11434```
+   - In Terminal:
+```
+ollama pull llava    #install ollama
+ollama pull mistral  #install mistral
+```
+To check that you have both the LLMs installed run the following command in Terminal (You'll get a list of the LLMs installed. Both llava and mistral should be on the list):
+```
+ollama list
+```
+4. IDE: Latest build (Recommended IntelliJ IDEA)
+   - [IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html#)
+5. HTTPie or equivalent HTTP Request application you're familiar with (i.e.: Postman, etc)
+   - [HTTPie](https://httpie.io/download)
