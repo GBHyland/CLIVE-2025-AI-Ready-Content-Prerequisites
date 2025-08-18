@@ -1,4 +1,4 @@
-# AI Ready Content leveraging Alfresco - CommunityLive25
+# AI Ready Content in Alfresco Content Services - CommunityLive25
 Please ensure that you have the following items downloaded and installed and ready to operate **before** your session starts on August 25th.
 
 
