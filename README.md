@@ -24,7 +24,5 @@ To check that you have both the LLMs installed run the following command in Term
 ```
 ollama list
 ```
-4. IDE: Latest build (Recommended IntelliJ IDEA)
-   - [IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html#)
-5. HTTPie or equivalent HTTP Request application you're familiar with (i.e.: Postman, etc)
+4. HTTPie or equivalent HTTP Request application you're familiar with (i.e.: Postman, etc)
    - [HTTPie](https://httpie.io/download)
