@@ -13,8 +13,9 @@ Please ensure that you have the following items downloaded and installed and rea
 2. Docker Desktop: [Docker Desktop](https://www.docker.com/get-started/)
    - Ensure you have the correct Docker Model Runner settings in Docker Desktop application; see below:
    - ![alt text](images/docker-desktop-settings.jpeg "Proper Docker Settings for Model Runner")
-3. An Ollama daemon exposing llava LLM on ```http://localhost:11434```
+3. An Ollama daemon exposing llava LLM on ```http://localhost:11434```.  
 Install Ollama by downloading the relevant install for your OS [HERE](https://ollama.com/download/mac)
+Once installed, pull both llava and mistral LLM's. 
    - In Terminal:
 ```
 ollama pull llava    #install ollama
